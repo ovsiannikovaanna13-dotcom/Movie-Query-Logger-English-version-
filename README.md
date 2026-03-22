@@ -39,3 +39,14 @@ conn = mysql.connector.connect(
 )
 
 cursor = conn.cursor()
+
+🔌 MongoDB Connection
+
+from pymongo import MongoClient
+
+client = MongoClient(
+    "mongodb://<username>:<password>@mongo.itcareerhub.de/?readPreference=primary&ssl=false&authMechanism=DEFAULT&authSource=ich_edit"
+)
+
+db = client["ich_edit"]
+collection = db["final_project_dam130625_H_Ovsiannikova"]
