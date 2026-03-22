@@ -40,8 +40,11 @@ conn = mysql.connector.connect(
 
 cursor = conn.cursor()
 
-🔌 MongoDB Connection
+---
 
+## 🔌 MongoDB Connection
+
+```python
 from pymongo import MongoClient
 
 client = MongoClient(
