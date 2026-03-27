@@ -20,7 +20,7 @@ A Python CLI project for searching movies in a MySQL database (sakila), saving q
 - MySQL (sakila)  
 - MongoDB  
 - PyMongo  
-- mysql-connector-python  
+- PyMysql  
 - Aggregation Pipeline (MongoDB)
 
 ---
